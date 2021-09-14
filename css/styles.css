@@ -1,0 +1,326 @@
+
+.tooltip-inner {
+  background: white;
+  color: black;
+  font-size: 1rem;
+  padding: 0px 5px;
+  border: 0.2px solid black;
+  border-radius: 0px;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.arrow {
+  display: none !important;
+}
+
+#header {
+  height: 10vh;
+  background-color: rgb(8, 104, 93);
+  color: white;
+  padding: 0% 5%;
+}
+#header i {
+  cursor: pointer;
+}
+#header img {
+  width: 20%;
+}
+#header #status-back-button {
+  color: lightseagreen;
+}
+#search-input {
+  display: none;
+  background: snow;
+}
+#search-input input {
+  width: 100%;
+  border: 0.5px solid lightgrey;
+}
+#search-input i {
+  color: lightgrey;
+}
+#search-back-button {
+  color: rgb(8, 104, 93);
+}
+#dropdownMenuButton {
+  background: transparent;
+  border: 0;
+  color: inherit;
+}
+#nav-pills {
+  z-index: 1;
+  padding: 0% auto;
+}
+#nav-pills .row {
+  background-color: rgb(8, 104, 93);
+  padding: 1% 0%;
+  font-weight: 500;
+  padding-bottom: 0;
+}
+#nav-pills a {
+  color: white;
+}
+#pills-tab .active {
+  border-bottom: 4px solid white;
+  background: transparent !important;
+}
+.no-padding {
+  padding: 0px;
+}
+.white-bg {
+  background: white;
+}
+.reduced-line-height {
+  line-height: 90%;
+}
+.list-group small {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: grey;
+}
+#new-chat {
+  background-color: #09d261;
+  padding: 4%;
+  font-size: 1.5rem;
+  color: white;
+  position: fixed;
+  bottom: 2vw;
+  right: 2vw;
+}
+.lastMessage {
+  font-weight: lighter;
+}
+.unreadMessage {
+  font-weight: bold;
+}
+.unreadMessagesCount {
+  background-color: #09d261;
+  border-radius: 12px;
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  height: 19px;
+  line-height: 20px;
+  min-width: 9px;
+  vertical-align: top;
+}
+#pills-chats a + .list-group-item {
+  border-top: 0.8px solid rgb(233, 235, 235) !important;
+}
+#pills-chats a + .list-group-item:hover {
+  background: rgb(244, 247, 247) !important;
+  border-color: transparent;
+}
+#pills-chats-tab span {
+  background: white;
+  color: rgb(8, 104, 93);
+}
+#pills-calls .col-12 {
+  color: darkgrey;
+}
+
+#user-profile {
+  background: rgb(238, 238, 238);
+  display: none;
+}
+#dp-change-button {
+  bottom: 10px;
+  right: 100px;
+  padding: 5%;
+  background: lightseagreen;
+  color: white;
+}
+#user-profile > div:first-child {
+  height: 18vh;
+  background: rgb(0, 191, 165);
+  color: white;
+}
+#user-profile > div:nth-of-type(2) {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 82vh;
+}
+#user-profile p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.9rem;
+}
+
+#chat {
+  background: url(../images/chatBg.png);
+}
+.chatHeader {
+  height: 10vh;
+  background-color: rgb(8, 104, 93);
+  color: white;
+}
+#userChatMenuButton {
+  background: transparent;
+  border: 0;
+  color: inherit;
+}
+
+#userName {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#userPic {
+  width: 70%;
+}
+#user-chat-container {
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#user-chat-container .col-auto {
+  max-width: 80%;
+}
+#user-chat-container small {
+  font-size: 0.7rem;
+  color: rgb(136, 155, 122);
+}
+.chat-image {
+  max-width: 30% !important;
+  text-align: right;
+}
+.sentMessage,
+.receivedMessage {
+  margin: 0.5rem 0rem;
+}
+.sentMessage {
+  justify-content: flex-end;
+  word-wrap: break-word;
+}
+.sentMessage i {
+  font-size: 0.7rem;
+  color: rgb(88, 198, 243);
+}
+.sentMessage div {
+  background: rgb(220, 248, 198);
+}
+.receivedMessage div {
+  background: white;
+}
+
+#chatInput .row {
+  background: rgba(255, 255, 255, 0.5);
+  height: 10vh;
+}
+#chatInput input {
+  width: 100%;
+  height: 7vh;
+  border: none;
+}
+#chatInput input:focus {
+  border: none;
+  outline: none;
+}
+#chatInput .dark-circle {
+  color: white;
+  background: rgb(8, 104, 93);
+  padding: 0.8rem;
+}
+#chatInput i {
+  color: grey;
+  font-size: 1.5rem;
+}
+#web-screen .row {
+  background: rgb(247, 249, 250);
+  height: 100vh;
+}
+#web-screen p.lead {
+  font-size: 1.8rem;
+}
+#web-screen p:last-child {
+  color: grey;
+  width: 60%;
+  font-size: 0.8rem;
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  font-size: 8rem;
+  background: linear-gradient(349deg, #e32717, #3b9bb2, #7962cb, #36c166);
+  background-size: 800% 800%;
+  -webkit-animation: GradientAnimation 20s ease infinite;
+  -moz-animation: GradientAnimation 20s ease infinite;
+  animation: GradientAnimation 20s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.list-group-item {
+  border-left: 0px;
+  border-right: 0px;
+  padding: 0.8rem 0rem;
+}
+.list-group-item:last-child {
+  border-bottom: 0px;
+}
+#user-chat,
+#user-chat-container,
+#user-status {
+  display: none;
+}
+#pills-chats,
+#pills-status,
+#pills-calls {
+  height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@-webkit-keyframes GradientAnimation {
+  0% {
+    background-position: 0% 34%;
+  }
+  50% {
+    background-position: 100% 67%;
+  }
+  100% {
+    background-position: 0% 34%;
+  }
+}
+@-moz-keyframes GradientAnimation {
+  0% {
+    background-position: 0% 34%;
+  }
+  50% {
+    background-position: 100% 67%;
+  }
+  100% {
+    background-position: 0% 34%;
+  }
+}
+@keyframes GradientAnimation {
+  0% {
+    background-position: 0% 34%;
+  }
+  50% {
+    background-position: 100% 67%;
+  }
+  100% {
+    background-position: 0% 34%;
+  }
+}
+/* end Animations */
